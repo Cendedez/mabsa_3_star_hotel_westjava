@@ -517,14 +517,8 @@ Saat ini repo resmi berhenti pada:
 - Notebook 07: text-only IndoBERT baseline.
 - Notebook 08: image-only CLIP/ViT baseline.
 
-Notebook fusion multimodal belum menjadi bagian progres resmi terbaru karena notebook 09 dan 10 sudah dihapus dari branch `main`.
+Notebook fusion multimodal belum berprogres karena masih mengkaji metode fusion yang optimal untuk kedua model.
 
-Tahap lanjutan yang dapat dikerjakan setelah progres ini:
-
-1. Menentukan apakah penelitian akan tetap MABSA penuh atau disederhanakan menjadi ABSA text-only.
-2. Jika tetap MABSA, lanjutkan eksperimen late fusion atau gated fusion dengan memperhatikan relation taxonomy.
-3. Jika bergeser ke ABSA temporal, gunakan `text_labelling.csv` sebagai basis analisis tren sentimen aspek antar periode.
-4. Menyiapkan visualisasi akhir untuk skripsi: distribusi label, distribusi wilayah/hotel, performa model, dan case study error analysis.
 
 ## Ringkasan Singkat Untuk Pembimbing
 
