@@ -519,9 +519,6 @@ Saat ini repo resmi berhenti pada:
 
 Notebook fusion multimodal belum berprogres karena masih mengkaji metode fusion yang optimal untuk kedua model.
 
-
-## Ringkasan Singkat Untuk Pembimbing
-
 Penelitian ini membangun dataset MABSA hotel bintang 3 di Jawa Barat dari Traveloka dan Tiket.com. Dataset mencakup 26 hotel di 9 wilayah, dengan 8.040 review final berlabel teks dan 17.385 gambar berlabel image-level. Setiap review dianalisis pada 7 aspek hotel: kamar, kebersihan, pelayanan, harga, lokasi, fasilitas, dan makanan.
 
 Pipeline sudah mencakup scraping, merge dataset, labelling teks dan gambar, audit kualitas data, taxonomy relasi text-image, pembuatan split train/validation/test, preprocessing IndoBERT, preprocessing gambar, baseline text-only IndoBERT, dan baseline image-only CLIP/ViT. Hasil sementara menunjukkan text-only IndoBERT mencapai test macro-F1 0,602567, sedangkan image-only CLIP/ViT mencapai test macro-F1 0,522666. Hal ini menunjukkan teks masih menjadi modality yang lebih kuat, tetapi gambar tetap memberi sinyal penting terutama untuk aspek visual seperti kamar, kebersihan, lokasi, dan fasilitas.
